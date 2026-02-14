@@ -1,0 +1,5 @@
+# Node modules (just in case)
+node_modules/
+
+# Backend environment variables
+backend/.env
