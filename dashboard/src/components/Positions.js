@@ -6,7 +6,7 @@ function Positions() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/allPositions")
+      .get("https://stock-trading-platform-iwbx.onrender.com/allPositions")
       .then((res) => {
         setAllPositions(res.data);
       })
